@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ 
+    <title>Document</title>
+    
+</head>
+<body>
+<div class="div">
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron py-4 ">
+                <h1 class="display-4 ">Hola Trabajador</h1>
+                <hr class="my-4">
+                <p>Conoces cuanto vale tu tiempo para tu empresa?</p>
+               
+              </div>
+            <div class="col py-4">
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Salario</span>
+                    <input type="text" class="form-control" placeholder="50,000" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+
+            </div>
+            <div class="col py-4">
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Horas por semana</span>
+                    <input type="text" class="form-control" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?" placeholder="50,000" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col py-0">
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Salario</span>
+                <input type="text" class="form-control" placeholder="50,000" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+        </div>
+        <div class="col py-0">
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Horas por semana</span>
+                <input type="text" class="form-control" placeholder="50,000" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row py-3 m-0">
+        <button class="btn btn-primary">Calcular</button>
+    </div>
+</div>
+
+
+
+
+</body>
+
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+</html>
